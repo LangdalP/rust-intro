@@ -1,0 +1,15 @@
+{
+  "name": "rust-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx @marp-team/marp-cli@latest -w slides.md",
+    "serve": "npx @marp-team/marp-cli@latest -s ."
+  },
+  "author": "Peder",
+  "license": "MIT",
+  "dependencies": {
+    "@marp-team/marp-cli": "^3.2.1"
+  }
+}
